@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,600');
+
+.post-info {
+    font-size: 11px;
+    color: #777;
+}
+.img-credits{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 50px 15px;
+	opacity: 1;
+	background: linear-gradient(to top, rgba(0,0,0,.8) 0, rgba(0,0,0,0) 100%);
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.3em;
+    font-weight: 700;
+    color: #333333;
+}
+
+.title-wrapper {
+	padding: 8px 0 5px;
+	margin-bottom: 20px;
+
+	h2 {
+		margin: 0;
+		font-size: 1.6rem;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		color: #ffffff;
+		padding: 0;
+
+		span {
+			padding: 6px 20px 5px;
+		}
+	}
+}
+.color-7 {
+	background: #e71838;
+}
+.border-7 {
+	border-bottom: 2px solid #e71838;
+}
+.border-5 {
+    border-bottom: 2px solid #72347d;
+}
+.color-5 {
+    background: #72347d;
+}
+.social-item {
+    margin-bottom: 5px;
+}
+.social-rss, .social-counter .rss {
+    background: #f0771e;
+}
+.social-tw, .social-counter .twitter {
+    background-color: #00ACED;
+}
+.social-gp, .social-counter .g-plus {
+    background-color: #D14836;
+}
+.social-fb, .social-counter .facebook {
+    background-color: #3B5998;
+}
+.widget {
+    margin-bottom: 30px;
+}
+.advertisement {
+    overflow: hidden;
+    padding: 0;
+
+    span {
+	    color: #bbbbbb;
+	    font-size: 9px;
+	    display: block;
+	    margin-bottom: 5px;
+	    text-transform: uppercase;
+    }
+}
+.advertisement {
+    text-align: center;
+    overflow: hidden;
+}
+.nav-tabs {
+    border-bottom: 4px solid #ff9900;
+    margin-bottom: 20px;
+
+    li {
+	    float: left;
+	    margin-bottom: -1px;
+	    width: 33.33333333%;
+
+	    a{
+		    margin-right: 0;
+		    border-top: 0;
+		    border-left: 0;
+		    border-right: 2px solid #ffffff;
+		    border-bottom: 0;
+		    border-radius: 0;
+		    background: #0099cc;
+		    height: 37px;
+		    line-height: 37px;
+		    text-align: center;
+		    transition: all 0.2s ease-in-out;
+		    color: #ffffff;
+		    font-family: 'Open Sans Condensed', sans-serif;
+		    font-weight: 700;
+		    text-transform: uppercase;
+		    font-size: 15px;
+		    display: block;
+		}
+
+		& a.active,
+		& a:hover,
+		& a.focus{
+		    color: #ffffff;
+		    cursor: pointer;
+		    background-color: #ff9900;
+		    border-top: 0;
+		    border-left: 0;
+		    border-right: 2px solid #ffffff;
+		    border-bottom: 0;
+		}
+	}
+}
